@@ -1,0 +1,4 @@
+<li>
+    {{ todo.name }}
+    <button *ngIf="todo.status === '0'" (click)="onMarkAsDone()">Hoàn thành</button>
+</li>
